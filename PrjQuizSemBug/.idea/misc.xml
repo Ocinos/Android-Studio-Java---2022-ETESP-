@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_final.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_main.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta01.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta02.xml" value="0.33" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta03.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta04.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta05.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta06.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta07.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta08.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta09.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/PrjQuizSemBug/app/src/main/res/layout/activity_pergunta10.xml" value="0.19746376811594202" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

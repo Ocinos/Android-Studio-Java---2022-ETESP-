@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta08">
+
+    <TextView
+        android:id="@+id/LblPergunta8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual tipo de monstro os Thunder Dragon são?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/BtnPeg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <ImageView
+        android:id="@+id/ImgTD"
+        android:layout_width="157dp"
+        android:layout_height="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253"
+        app:srcCompat="@drawable/td" />
+
+    <RadioGroup
+        android:layout_width="410dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
+
+        <RadioButton
+            android:id="@+id/RdoDragon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Dragão" />
+
+        <RadioButton
+            android:id="@+id/RdoTrovao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Trovão" />
+
+        <RadioButton
+            android:id="@+id/RdoWyrms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Wyrm" />
+
+        <RadioButton
+            android:id="@+id/RdoBesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Besta" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta06">
+
+    <Button
+        android:id="@+id/BtnPeg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <TextView
+        android:id="@+id/LblPergunta6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual o tipo de monstro o True King of All Calamities é?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <ImageView
+        android:id="@+id/ImgKing"
+        android:layout_width="160dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/calamities" />
+
+    <RadioGroup
+        android:layout_width="410dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744">
+
+        <RadioButton
+            android:id="@+id/RdoFada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Fada" />
+
+        <RadioButton
+            android:id="@+id/RdoDemonio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Demônio" />
+
+        <RadioButton
+            android:id="@+id/RdoDragao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Dragão" />
+
+        <RadioButton
+            android:id="@+id/RdoWyrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Wyrm" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

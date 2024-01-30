@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta05">
+
+    <Button
+        android:id="@+id/BtnPeg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <TextView
+        android:id="@+id/LblPergunta5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Na regra de velocidade, qual é o tipo de carta que tem a maior prioridade?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageView
+        android:id="@+id/ImgSpell"
+        android:layout_width="153dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        app:srcCompat="@drawable/reborn" />
+
+    <RadioGroup
+        android:layout_width="410dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" >
+
+        <RadioButton
+            android:id="@+id/RdoCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armadilha de Resposta" />
+
+        <RadioButton
+            android:id="@+id/RdoQuick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magia Rápida" />
+
+        <RadioButton
+            android:id="@+id/RdoTrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armadilha Contínua" />
+
+        <RadioButton
+            android:id="@+id/RdoMonster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Efeito Rápido)Monstro de efeito" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
